@@ -1,0 +1,24 @@
+#include <stdio.h>
+float fact(float n){
+	 float sum=1.0,i,diwid=1,j,product=1,e=1;
+    for(i=1;i<=n;i++)
+    {
+       product=product*i;
+
+    }
+		return product;
+}
+void main()
+{
+	 float sum=1.0,i,diwid=1,j,n,product=1,e=1;
+    printf("enter your nu.");
+    scanf("%f",&n);
+		 for(i=1;i<=n;i++){
+		 	e=e+(1/fact(i));
+		 }
+          printf("%f",e);
+}
+
+
+
+  
