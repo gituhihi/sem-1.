@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+void main()
+{
+    int i,j,n,product=1;
+    printf("enter your nu.");
+    scanf("%d",&n);
+    for(i=1;i<=n;i++)
+    {
+       product=product*i;
+    }
+            printf("%d",product);
+}
