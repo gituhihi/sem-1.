@@ -1,0 +1,13 @@
+#include<stdio.h>
+void main(){
+
+int arr[50],n,i,*poi;
+printf("\n enter arr element:\n");
+for(i=0;i<3;i++){
+	scanf("%d",&arr[i]);
+}
+for(i=0;i<3;i++){
+	poi=&arr[i];
+	printf("%d",*poi);
+}
+}
